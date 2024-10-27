@@ -37,7 +37,7 @@ body p {
 
 .item {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding-top: 100px;
   margin-left: 7%;
   margin-right: 5%;
@@ -45,6 +45,7 @@ body p {
 
 .item img {
   text-align: center;
+  width: 350px;
 }
 
 .item p {
