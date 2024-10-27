@@ -68,7 +68,6 @@ footer {
   bottom: -50px;
   padding-bottom: 0;
   margin-bottom: 0;
-  height: 500px;
 }
 
 footer img {
@@ -78,4 +77,8 @@ footer img {
 
 a {
   color: #f79640;
+}
+
+#item1 {
+  width: 420px;
 }
