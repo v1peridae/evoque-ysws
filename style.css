@@ -38,13 +38,14 @@ body p {
 .item {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin-left: 7%;
-  margin-right: 5%;
+  margin-right: 7%;
+  border-bottom: #f79640 4px dashed;
 }
 
 .item img {
-  text-align: center;
   width: 350px;
 }
 
@@ -52,8 +53,13 @@ body p {
   text-align: right;
   font-size: 40px;
   font-weight: 400;
+  margin-left: 0;
+  margin-right: 0;
 }
 
+#itemlast {
+  border-bottom: none;
+}
 footer {
   margin: 0;
   padding: 0;
@@ -68,4 +74,8 @@ footer {
 footer img {
   width: 1550px;
   margin-bottom: -20px;
+}
+
+a {
+  color: #f79640;
 }
